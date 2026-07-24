@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/unsubscribe",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Remove subscription for a specific coin"
+            }
+          }
+        ],
+        "send": {
+          "text": "/unsubscribe"
+        }
+      }
+    ]
+  }
+]
